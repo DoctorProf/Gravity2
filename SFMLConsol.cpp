@@ -35,7 +35,7 @@ int main() {
     std::vector<std::vector<Vector2f>> circleTrack;
     double G = 6.67;
     long double low = 100;
-    double rSun = 20;
+    double rSun = 5;
     double F = 0;
     double a = 0;
     sf::Vertex track;
