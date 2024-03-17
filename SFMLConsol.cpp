@@ -71,7 +71,7 @@ int main() {
                     double mass = 100;
 
                     CircleShape circle(radius);
-                    circle.setFillColor(Color::Color(rand() % 255, rand() % 255, rand() % 255, 255));
+                    circle.setFillColor(Color(rand() % 255, rand() % 255, rand() % 255, 255));
                     Vector2f velocity(x, y);
                     Vector2f position(mousePos.x - radius, mousePos.y - radius);
                     std::vector<Vector2f> circTrack;
